@@ -43,7 +43,7 @@
 
 		
 <?php
-	//Preuzimanje podataka iz JSON fajla
+	// Preuzimanje podataka iz JSON fajla ...
 
 	$string = file_get_contents("json.json");
 	$json_a=json_decode($string,true);
