@@ -1,0 +1,22 @@
+{
+  "num_of_windows": "3",
+  "html": "<div class='row'><div class='col-6 left' id='w1'></div><div class='col-6 right' id='w2'> </div></div><div class='row'><div class='col-12 bottom' id='w3'> </div></div>",
+  "monitors": [
+    {
+      "server": "AWS",
+      "monitor": "on",
+      "url": "http://192.169.153.120:19999/#menu_system;theme=slate;help=true"
+    },
+    {
+      "server": "tools",
+      "monitor": "on",
+      "url": "http://tools.execdigi.com:19999/#menu_system_submenu_cpu;theme=slate;help=true"
+      
+    },
+    {
+      "server": "VPS3",
+      "monitor": "off",
+      "url": "https://app.datadoghq.com/dashboard/6jz-id2-yk3/serveri?tv_mode=true&to_ts=1553698800000&is_auto=false&live=true&from_ts=1553695200000&tile_size=m&page=0"
+    }
+  ]
+}
